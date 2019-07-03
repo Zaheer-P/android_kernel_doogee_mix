@@ -40,6 +40,9 @@ LCM_DRIVER *lcm_driver_list[] = {
 #if defined(TD4310_AUO60_WCL_LFHD)
 	&td4310_auo60_wcl_lfhd_lcm_drv,
 #endif
+#if defined(HCT_RM67120_DSI_VDO_HD_GVO)
+    &hct_rm67120_dsi_vdo_hd_gvo_lcm_drv,
+#endif
 #if defined(OTM1284A_HD720_DSI_VDO_TM)
 	&otm1284a_hd720_dsi_vdo_tm_lcm_drv,
 #endif
